@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 
-const AboutMe: React.FC = () => {
+const AboutMe: FC = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
@@ -29,4 +29,4 @@ const AboutMe: React.FC = () => {
   );
 };
 
-export default AboutMe; 
+export default AboutMe;
